@@ -30,7 +30,7 @@ MemcacheSASL classes.
 Using Memcache SASL
 -------------------
 
-Here is a basic setup to log to a file and to firephp on the DEBUG level:
+Here is a basic setup to log to a file and to fire php on the DEBUG level:
 
 ```php
 <?php
@@ -52,3 +52,17 @@ $v = $m->get('key');
 $m->delete('key');
 ```
 
+Here is basic usage for Doctrine Memcache Cache
+
+```php
+<?php
+
+use Memcachier\MemcacheSASL;
+
+$cache = new \Doctrine\Common\Cache\MemcacheCache();
+$memcache = new \MemcacheSASL();
+$memcache->addServer('localhost', 11211);
+$memcache->setSaslAuthData('username', 'password');
+$cache->setMemcache($memcache);
+return $cache;
+```

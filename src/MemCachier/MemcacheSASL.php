@@ -2,7 +2,7 @@
 
 namespace MemCachier;
 
-class MemcacheSASL
+class MemcacheSASL extends \Memcache
 {
     protected $_request_format = 'CCnCCnNNNN';
     protected $_response_format = 'Cmagic/Copcode/nkeylength/Cextralength/Cdatatype/nstatus/Nbodylength/NOpaque/NCAS1/NCAS2';
