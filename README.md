@@ -1,13 +1,21 @@
 # MemcacheSASL
 
-A pure PHP Memcache client with [binary protocol](http://code.google.com/p/memcached/wiki/BinaryProtocolRevamped),  [SASL](http://code.google.com/p/memcached/wiki/SASLAuthProtocol) & [Doctrine Cache](http://docs.doctrine-project.org/en/2.0.x/reference/caching.html#memcache)
+A pure PHP Memcache client with [binary
+protocol](http://code.google.com/p/memcached/wiki/BinaryProtocolRevamped),
+[SASL](http://code.google.com/p/memcached/wiki/SASLAuthProtocol) &
+[Doctrine Cache](http://docs.doctrine-project.org/en/2.0.x/reference/caching.html#memcache)
 support.
 
-It aims to be compatible with the [PHP Memcached](http://php.net/manual/en/class.memcached.php) class. Not all features are supported at this time.
+It aims to be compatible with the PHP Memcached class. You can find
+documentation on the PHP Memcached class
+[here](http://php.net/manual/en/class.memcached.php). Not all features
+are supported at this time.
+
 
 ## Changes vs. ronnywang Version
 
-This is a fork of the original code base by [Ronny Wang](https://github.com/ronnywang/PHPMemcacheSASL). 
+This is a fork of the original code base by [Ronny
+Wang](https://github.com/ronnywang/PHPMemcacheSASL).
 
 [MemCachier](https://github.com/memcachier) made the following improvements:
 
@@ -28,7 +36,12 @@ This library is BSD-licensed.
 
 ## Authors
 
-This library was written by [Ronny Wang](https://github.com/ronnywang), [MemCachier](https://github.com/memcachier) & [treeskelt](https://github.com/treeskelt).
+This library was written by
+[Ronny
+Wang](https://github.com/ronnywang), [MemCachier
+](https://github.com/memcachier) & [treeskelt
+](https://github.com/treeskelt).
 
-Ronny Wang wrote the initial version and bulk of the code, MemCachier & treeskelt later forked it to improve on the code base.
+Ronny Wang wrote the initial version and bulk of the code,
+MemCachier & treeskelt later forked it to improve on the code base.
 
